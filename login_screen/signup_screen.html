@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <h2>Sign Up</h2>
+    
+    <div class="input-container">
+      <input type="text" name="username" maxlength="50" placeholder="Username" required>
+      <i class="fa fa-user"></i>
+    </div>
+    
+    <div class="input-container">
+      <input type="email" name="email" placeholder="Email" required>
+      <i class="fa fa-envelope"></i>
+    </div>
+    
+    <div class="input-container">
+      <input type="password" name="password" maxlength="12" placeholder="Password" required>
+      <i class="fa fa-lock"></i>
+    </div>
+    
+    <div class="input-container">
+      <input type="password" name="confirm-password" maxlength="12" placeholder="Confirm Password" required>
+      <i class="fa fa-check"></i>
+    </div>
+    
+    <button type="submit">Sign Up</button>
+    
+    <p>Already have an <a href="login.html">account?</a></p>
+  </form>
+  
+  <script src="main.js"></script>
+</body>
+</html>
